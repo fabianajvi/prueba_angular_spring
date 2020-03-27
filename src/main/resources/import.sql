@@ -1,0 +1,14 @@
+INSERT INTO persona (numdoc, descripcion, edad, email, fecha_nacimiento, nombre, salario, tipodoc) values ('1007840181','prueba', '19', 'fabijivi@gmail.com', '2000-10-21', 'Fabiana', '800', 'cedula' );
+INSERT INTO persona (numdoc, descripcion, edad, email, fecha_nacimiento, nombre, salario, tipodoc) values ('1007840182','prueba', '19', 'fabijivi@gmail.com', '2000-10-21', 'Fabiana', '800', 'cedula' );
+INSERT INTO persona (numdoc, descripcion, edad, email, fecha_nacimiento, nombre, salario, tipodoc) values ('1007840183','prueba', '19', 'fabijivi@gmail.com', '2000-10-21', 'Fabiana', '800', 'cedula' );
+INSERT INTO persona (numdoc, descripcion, edad, email, fecha_nacimiento, nombre, salario, tipodoc) values ('1007840184','prueba', '19', 'fabijivi@gmail.com', '2000-10-21', 'Fabiana', '800', 'cedula' );
+INSERT INTO persona (numdoc, descripcion, edad, email, fecha_nacimiento, nombre, salario, tipodoc) values ('1007840185','prueba', '19', 'fabijivi@gmail.com', '2000-10-21', 'Fabiana', '800', 'cedula' );
+INSERT INTO persona (numdoc, descripcion, edad, email, fecha_nacimiento, nombre, salario, tipodoc) values ('1007840186','prueba', '19', 'fabijivi@gmail.com', '2000-10-21', 'Fabiana', '800', 'cedula' );
+INSERT INTO usuarios (usuario, numdoc, perfil, habilitado, fechacreacion, fechamodificacion) values ('1', '1007840181', '1', '1', '2020-03-12', '2020-03-20');
+INSERT INTO usuarios (usuario, numdoc, perfil, habilitado, fechacreacion, fechamodificacion) values ('2', '1007840182', '1', '1', '2020-03-12', '2020-03-20');
+INSERT INTO usuarios (usuario, numdoc, perfil, habilitado, fechacreacion, fechamodificacion) values ('3', '1007840183', '1', '1', '2020-03-12', '2020-03-20');
+INSERT INTO usuarios (usuario, numdoc, perfil, habilitado, fechacreacion, fechamodificacion) values ('4', '1007840184', '1', '1', '2020-03-12', '2020-03-20');
+INSERT INTO usuarios (usuario, numdoc, perfil, habilitado, fechacreacion, fechamodificacion) values ('5', '1007840185', '1', '1', '2020-03-12', '2020-03-20');
+INSERT INTO usuarios (usuario, numdoc, perfil, habilitado, fechacreacion, fechamodificacion) values ('6', '1007840186', '1', '1', '2020-03-12', '2020-03-20');
+INSERT INTO perfil (codperfil, descripcion) VALUES ('1', 'Administrador');
+INSERT INTO perfil (codperfil, descripcion) VALUES ('2', 'Cliente');
