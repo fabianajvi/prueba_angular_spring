@@ -1,0 +1,24 @@
+<div class="container">
+    <hr>
+    <div class=" card border-primary mb-3">
+        <div class="card-header">Perfiles</div>
+        <div class="card-body text-primary">
+            <h5 class="card-title">Listado</h5>
+            <table class="table table-bordered table-stripped">
+                <thead>
+                    <tr>
+                        <th>Código Perfil</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let perfil of perfiles">
+                        <td>{{ perfil.codPerfil}}</td>
+                        <td>{{ perfil.descripcion}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

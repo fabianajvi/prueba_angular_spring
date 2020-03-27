@@ -1,0 +1,33 @@
+<div class="navigation col-lg-12" id="menu">
+    <nav class="navbar navbar-expand-lg">
+      <a [routerLink]="['/home']" class="navbar-brand"></a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a [routerLink]="['/home']" class="btn btn-primary m-2" [routerLinkActive]="['active']">
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/usuarios']" class="btn btn-primary m-2" [routerLinkActive]="['active']">
+              Usuarios
+            </a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/personas']" class="btn btn-primary m-2" [routerLinkActive]="['active']">
+              Personas
+            </a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/perfil']" class="btn btn-primary m-2" [routerLinkActive]="['active']">
+              Perfiles
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <hr>
+<div class="col-lg-11">
+  <router-outlet></router-outlet>
+</div>

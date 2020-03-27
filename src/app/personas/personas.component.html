@@ -1,0 +1,38 @@
+<div class="container">
+    <a [routerLink]="['/registroPersona']" class="btn btn-primary m-2">Crear Persona</a>
+    <hr>
+    <div class=" card border-primary mb-3">
+        <div class="card-header">Personas</div>
+        <div class="card-body text-primary">
+            <h5 class="card-title">Listado</h5>
+            <table class="table table-bordered table-stripped">
+                <thead>
+                    <tr>
+                        <th>Número de documento</th>
+                        <th>Tipo de documento</th>
+                        <th>Nombre</th>
+                        <th>Fecha de nacimiento</th>
+                        <th>Edad</th>
+                        <th>Descripción</th>
+                        <th>Email</th>
+                        <th>Salario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let persona of personas">
+                        <td>{{ persona.numDoc}}</td>
+                        <td>{{ persona.tipoDoc}}</td>
+                        <td>{{ persona.nombre}}</td>
+                        <td>{{ persona.fechaNacimiento}}</td>
+                        <td>{{ persona.edad}}</td>
+                        <td>{{ persona.descripcion}}</td>
+                        <td>{{ persona.email}}</td>
+                        <td>{{ persona.salario}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
+
